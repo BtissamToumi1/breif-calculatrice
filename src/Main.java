@@ -12,6 +12,15 @@ public class Main {
         static void Multiplication(int x, int y) {
             System.out.println("la multiplication est :" + (x * y));
         }
+        static void Division(int x, int y) {
+         if(y==0){
+            float calculi = (float)x/y;
+            System.out.println("la division est :" + calculi);
+         }
+         else {
+            System.out.println("la division est impossible ");
+         }
+    }
         public static void main(String[] args) {
         }
     }
