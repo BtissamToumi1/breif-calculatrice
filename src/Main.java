@@ -5,6 +5,9 @@ public class Main {
         static void Addition(int x, int y) {
             System.out.println("la somme est :" + (x + y));
         }
+        static void Subtraction(int x, int y)  {
+            System.out.println("la subtraction est :" + (x - y));
+    }
         public static void main(String[] args) {
         }
     }
