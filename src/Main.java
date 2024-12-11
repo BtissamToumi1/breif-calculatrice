@@ -24,7 +24,9 @@ public class Main {
        static void Puissance(int x,int y) {
          System.out.println("la puissance  est :" + Math.pow(x,y));
        }
-
+       static void racine(int x) {
+          System.out.println("le racine  est :" + Math.sqrt(x));
+         }
         public static void main(String[] args) {
         }
     }
