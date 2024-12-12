@@ -34,6 +34,63 @@ public class Main {
          }
         System.out.println("le factoriel  est :" + produit);
     }
+     static int saisie(){
+        int x;
+        Scanner scanner= new Scanner(System.in);
+
+            System.out.print("entre le premier number: ");
+            x = scanner.nextInt();
+
+        return x;
+    
+      static int saisie(){
+              int x;
+              Scanner scanner= new Scanner(System.in);
+           
+                  System.out.print("entre le premier number: ");
+                  x = scanner.nextInt();
+            
+              return x;
+          }
         public static void main(String[] args) {
-        }
+     		int choix,x,y;
+          do {
+              Menu_Principal();
+              Scanner choose = new Scanner(System.in);
+              System.out.print("entrez votre choix: ");
+              choix = choose.nextInt();
+            switch(choix){
+                 case 1 : x = saisie();
+                          y = saisie();
+                          Addition(x,y);
+                          break;
+                 case 2 : x=saisie();
+                          y=saisie();
+                          Subtraction(x,y);
+                          break;
+                 case 3 : x=saisie();
+                          y=saisie();
+                          Multiplication(x,y);
+                          break;
+                 case 4 : x=saisie();
+                          y=saisie();
+                          Division(x,y);
+                          break;
+                 case 5 : x=saisie();
+                          y=saisie();
+                          Puissance(x,y);
+                          break;
+                 case 6:  x=saisie();
+                          racine(x);
+                          break;
+                 case 7:  x=saisie();
+                          factoriel(x);
+                          break;
+                 default : break;
+          }
+      }while(choix!=8);   
+
+
+
+	}
     }
