@@ -27,6 +27,13 @@ public class Main {
        static void racine(int x) {
           System.out.println("le racine  est :" + Math.sqrt(x));
          }
+        static void factoriel(int x) {
+          int i,produit=1;
+          for (i=1 ; i<=x ; i++) {
+            produit *=i;
+         }
+        System.out.println("le factoriel  est :" + produit);
+    }
         public static void main(String[] args) {
         }
     }
